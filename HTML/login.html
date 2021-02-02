@@ -36,25 +36,28 @@
         </div>
       </nav>
     <!-- Log in component -->
-    <div class="login-form">
-        <form action="/examples/actions/confirmation.php" method="post">
-            <h2 class="text-center">Log in</h2>       
-            <div class="form-group">
-                <input type="text" class="form-control" placeholder="Username" required="required">
-            </div>
-            <div class="form-group">
-                <input type="password" class="form-control" placeholder="Password" required="required">
-            </div>
-            <div class="form-group">
-                <button type="submit" class="btn btn-primary btn-block">Log in</button>
-            </div>
-            <div class="clearfix">
-                <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
-                <!-- Do I make a forgot password page for this? Probably will in the future
-                for now, it is not operational. -->
-                <a href="#" class="float-right">Forgot Password?</a>
-            </div>        
-        </form>
-        <p class="text-center"><a href="register.html">Create an Account</a></p>
+    <div class="containter">
+      <h1 class="display-4 d-flex justify-content-center">Login</h1>
+      <div class="login-form">
+          <form action="/examples/actions/confirmation.php" method="post">
+              <!-- <h2 class="text-center">Log in</h2>        -->
+              <div class="form-group">
+                  <input type="text" class="form-control" placeholder="Username" required="required">
+              </div>
+              <div class="form-group">
+                  <input type="password" class="form-control" placeholder="Password" required="required">
+              </div>
+              <div class="form-group">
+                  <button type="submit" class="btn btn-primary btn-block">Log in</button>
+              </div>
+              <div class="clearfix">
+                  <label class="float-left form-check-label"><input type="checkbox"> Remember me</label>
+                  <!-- Do I make a forgot password page for this? Probably will in the future
+                  for now, it is not operational. -->
+                  <a href="#" class="float-right">Forgot Password?</a>
+              </div>        
+          </form>
+          <p class="text-center"><a href="register.html">Create an Account</a></p>
+      </div>
     </div>
 </body>
