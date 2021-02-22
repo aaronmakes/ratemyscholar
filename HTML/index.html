@@ -43,29 +43,26 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
     <!-- Jumbotron component -->
-    <div class="container">
-        <div class="jumbotron" style="opacity: 90%;">
-            <h1>Welcome to Rate My Scholar</h1>
-            <p>
+    <div class="container-fluid">
+        <div class="jumbotron jumbotron-fluid text-center" style="opacity: 90%;">
+            <h1 class="jumbotron-heading">Welcome to Rate My Scholar</h1>
+            <p class="text-muted">
                 With this complex and incredible site, you can peruse the quality of all your colleagues.
-                Not just your professor 👁.
+                Not just your professor.
+                <br>
+                <h5>Begin your search by entering a school below.</h3>
             </p>
+            <div class="input-group col-md-12">
+              <input class="form-control py-2" type="search" value="" id="example-search-input">
+              <span class="input-group-append">
+                <button onclick="window.location.href='result.html';" class="btn btn-outline-secondary" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span>
+            </div>
         </div>
-        <!-- Subtitle component -->
-        <div class="card" style="margin-bottom: 12px; opacity: 90%;">
-          <div class="card-body font-weight-bold">
-            Begin your search by entering a school
-          </div>
-        </div>
+
         <!-- Search bar component -->
-        <div class="input-group col-md-12">
-          <input class="form-control py-2" type="search" value="" id="example-search-input">
-          <span class="input-group-append">
-            <button onclick="window.location.href='result.html';" class="btn btn-outline-secondary" type="button">
-                <i class="fa fa-search"></i>
-            </button>
-          </span>
-        </div>
       </div>
 
    
