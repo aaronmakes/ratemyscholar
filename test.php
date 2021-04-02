@@ -4,7 +4,7 @@
 
 <h1>Developer News</h1>
 
-<?php echo "The Best PHP Examples"; ?>
+<?php echo "The Best PHP Examples ytresatatsadsa"; ?>
 
 </body>
 </html> 
