@@ -1,0 +1,26 @@
+{
+  "name": "ratemyscholar",
+  "version": "1.0.0",
+  "description": "Rate My Scholar<br>\r MEMBERS <br>\r Aaron Muysson (6281349) <br>\r Daniel Figueroa (6276463) <br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronmakes/ratemyscholar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronmakes/ratemyscholar/issues"
+  },
+  "homepage": "https://github.com/aaronmakes/ratemyscholar#readme",
+  "engines": {
+    "node": "12.11.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
