@@ -1,0 +1,19 @@
+{
+  "name": "ratemyscholar",
+  "version": "1.0.0",
+  "description": "lets see if this works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aaronmakes/ratemyscholar.git"
+  },
+  "author": "Aaron and Daniel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aaronmakes/ratemyscholar/issues"
+  },
+  "homepage": "https://github.com/aaronmakes/ratemyscholar#readme"
+}
