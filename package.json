@@ -1,26 +1,42 @@
 {
-  "name": "ratemyscholar",
-  "version": "1.0.0",
-  "description": "Rate My Scholar<br>\r MEMBERS <br>\r Aaron Muysson (6281349) <br>\r Daniel Figueroa (6276463) <br>",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aaronmakes/ratemyscholar.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aaronmakes/ratemyscholar/issues"
-  },
-  "homepage": "https://github.com/aaronmakes/ratemyscholar#readme",
-  "engines": {
-    "node": "12.11.1"
-  },
+  "name": "rate-my-scholar",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "express": "^4.17.1"
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
+    "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
+    "react-dom": "^17.0.2",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
